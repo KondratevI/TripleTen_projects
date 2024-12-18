@@ -6,56 +6,26 @@ The goal is to review the superstore’s operations and increase its profitabili
 
 #### The Data
 
-
 - `'Order ID'`: ID number that uniquely identifies each order
-- `'Order Date'`:
-- `'Ship Date'`:
-- `'Ship Mode'`:
+- `'Order Date'`: Date when the order was placed
+- `'Ship Date'`: Date when the order was shipped
+- `'Ship Mode'`: The method of shipping used (e.g., Standard, Express)
 - `'Customer ID'`: ID number that uniquely identifies each customer account
-- `'Customer Name'`:
-- `'Segment'`:
-- `'Country/Region'`:
-- `'City'`:
-- `'State'`:
-- `'Postal Code'`:
-- `'Region'`:
+- `'Customer Name'`: Full name of the customer
+- `'Segment'`: Customer's market segment (e.g., Consumer, Corporate)
+- `'Country/Region'`: Country or region where the customer is located
+- `'City'`: City where the customer resides
+- `'State'`: State or province where the customer is located
+- `'Postal Code'`: Postal code of the customer's location
+- `'Region'`: Geographical region (e.g., East, West)
 - `'Product ID'`: ID number that uniquely identifies each product
-- `'Category'`:
-- `'Sub-Category'`:
-- `'Product Name'`:
-- `'Sales'`:
-- `'Quantity'`:
-- `'Discount'`:
-- `'Profit'`:
-
-
-
-
-- `instacart_orders.csv`: each row corresponds to one order on the Instacart app
-    - `'order_id'`: ID number that uniquely identifies each order
-    - `'user_id'`: ID number that uniquely identifies each customer account
-    - `'order_number'`: the number of times this customer has placed an order
-    - `'order_dow'`: day of the week that the order placed (which day is 0 is uncertain)
-    - `'order_hour_of_day'`: hour of the day that the order was placed
-    - `'days_since_prior_order'`: number of days since this customer placed their previous order
-- `products.csv`: each row corresponds to a unique product that customers can buy
-    - `'product_id'`: ID number that uniquely identifies each product
-    - `'product_name'`: name of the product
-    - `'aisle_id'`: ID number that uniquely identifies each grocery aisle category
-    - `'department_id'`: ID number that uniquely identifies each grocery department category
-- `order_products.csv`: each row corresponds to one item placed in an order
-    - `'order_id'`: ID number that uniquely identifies each order
-    - `'product_id'`: ID number that uniquely identifies each product
-    - `'add_to_cart_order'`: the sequential order in which each item was placed in the cart
-    - `'reordered'`: 0 if the customer has never ordered this product before, 1 if they have
-- `aisles.csv`
-    - `'aisle_id'`: ID number that uniquely identifies each grocery aisle category
-    - `'aisle'`: name of the aisle
-- `departments.csv`
-    - `'department_id'`: ID number that uniquely identifies each grocery department category
-    - `'department'`: name of the department
-
-The data is provided by TripleTen, who took it from Kaggle and modified it.
+- `'Category'`: Category to which the product belongs (e.g., Furniture, Technology)
+- `'Sub-Category'`: Subcategory of the product (e.g., Chairs, Phones)
+- `'Product Name'`: Name of the product
+- `'Sales'`: The sales revenue from the order
+- `'Quantity'`: Number of units of the product ordered
+- `'Discount'`: Discount applied to the order, if any
+- `'Profit'`: Profit earned from the order
 
 #### The Process
 
