@@ -6,30 +6,15 @@ The goal of this project is to explore datasets, find the best model with the be
 
 #### The Data
 
-- `'Order ID'`: ID number that uniquely identifies each order
-- `'Order Date'`: Date when the order was placed
-- `'Ship Date'`: Date when the order was shipped
-- `'Ship Mode'`: The method of shipping used (e.g., Standard, Express)
-- `'Customer ID'`: ID number that uniquely identifies each customer account
-- `'Customer Name'`: Full name of the customer
-- `'Segment'`: Customer's market segment (e.g., Consumer, Corporate)
-- `'Country/Region'`: Country or region where the customer is located
-- `'City'`: City where the customer resides
-- `'State'`: State or province where the customer is located
-- `'Postal Code'`: Postal code of the customer's location
-- `'Region'`: Geographical region (e.g., East, West)
-- `'Product ID'`: ID number that uniquely identifies each product
-- `'Category'`: Category to which the product belongs (e.g., Furniture, Technology)
-- `'Sub-Category'`: Subcategory of the product (e.g., Chairs, Phones)
-- `'Product Name'`: Name of the product
-- `'Sales'`: The sales revenue from the order
-- `'Quantity'`: Number of units of the product ordered
-- `'Discount'`: Discount applied to the order, if any
-- `'Profit'`: Profit earned from the order
+- `'сalls'`: number of calls
+- `'minutes'`: total call duration in minutes
+- `'messages'`: number of text messages
+- `'mb_used'`: Internet traffic used in MB
+- `'is_ultra'`: plan for the current month (Ultra - 1, Smart - 0)
 
 #### Process and Results
 
-To do this I'll:
+To do this I've done:
 
 - preprocess the data identifying and filling in missing values, identifying and remove duplicate values,
 - split the source data into a training set, a validation set, and a test set,
