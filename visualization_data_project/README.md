@@ -11,7 +11,6 @@ The dataset contains the weight measurements of the squirrels when they reached 
 
 #### Process and Results
 
-The project was divided into three parts:
-- **Profits & Losses:** Identified the biggest profit and loss centers, recommended products to stop selling, found the relationships between total numbers of sales and returns.
-- **Advertising:** Identified the best states and months for advertising, calculating the return on ad spend ratio.
-- **Returned Items:** Analyzed the return rates of products and examined the relationship between profit and return rates.
+- **Diet Comparison:** Compare the mean adult weights of squirrels in each diet group.
+- **Distribution of Weights:** Display the distribution of adult weights within each diet group to understand variance and central tendencies.
+- **Outliers and Trends:** Identify any outliers and trends that may indicate a diet's effectiveness or anomalies in the data.
