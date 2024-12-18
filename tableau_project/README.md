@@ -1,4 +1,4 @@
-# TripleTen Sprint 4 Project - Data Visualization with Tableau
+# Project - Data Visualization with Tableau
 
 ### The goal
 
