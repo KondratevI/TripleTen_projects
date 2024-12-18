@@ -27,12 +27,10 @@ The goal is to review the superstore’s operations and increase its profitabili
 - `'Discount'`: Discount applied to the order, if any
 - `'Profit'`: Profit earned from the order
 
-#### The Process
+#### Process and Results
 
-I first explored the dataset to find and fix missing and duplicate values, and I merged DataFrames from different sources. Finally, I analyzed the data using visualizations and pivot tables.
+The project was divided into three parts:
+- **Profits & Losses:** Identified the biggest profit and loss centers, recommended products to stop selling, found the relationships between total numbers of sales and returns.
+- **Advertising:** Identified the best states and months for advertising, calculating the return on ad spend ratio.
+- **Returned Items:** Analyzed the return rates of products and examined the relationship between profit and return rates.
 
-### Results
-
-Taking the time to explain my results at each step was a key element in this process, and this was my first attempt at doing it. I wrote an introduction and conclusion that outlined what I did, and made suggestions for Instacart to consider in the future.
-
-Please have a look at the Jupyter Notebook included for a full description of results.
