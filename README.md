@@ -4,7 +4,7 @@ Projects I worked on while attending the Data Analysis TripleTen Bootcamp.
 
 | Project number | Title | Description |
 | :-----------: | ----------- |----------- |
-| 1 | Data Visualization with Tableau | The project task was to review the superstore’s operations of the superstore and increase its profitability. |
+| 1 | [Data Visualization with Tableau](https://github.com/KondratevI/TripleTen_projects/tree/ad457578f8794f8bdb022c20bf6504ea922a2a35/tableau_project) | The project task was to review the superstore’s operations of the superstore and increase its profitability. |
 
 
 
