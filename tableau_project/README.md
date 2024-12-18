@@ -7,26 +7,26 @@ The goal is to review the superstore’s operations and increase its profitabili
 #### The Data
 
 
-- `'Order ID'`:
+- `'Order ID'`: ID number that uniquely identifies each order
 - `'Order Date'`:
 - `'Ship Date'`:
 - `'Ship Mode'`:
-- `'Customer ID'`:
+- `'Customer ID'`: ID number that uniquely identifies each customer account
 - `'Customer Name'`:
 - `'Segment'`:
 - `'Country/Region'`:
 - `'City'`:
 - `'State'`:
-- `'Postal Code'`
-- `'Region'`
-- `'Product ID'`
-- `'Category'`
-- `'Sub-Category'`
-- `'Product Name'`
-- `'Sales'`
-- `'Quantity'`
-- `'Discount'`
-- `'Profit'`
+- `'Postal Code'`:
+- `'Region'`:
+- `'Product ID'`: ID number that uniquely identifies each product
+- `'Category'`:
+- `'Sub-Category'`:
+- `'Product Name'`:
+- `'Sales'`:
+- `'Quantity'`:
+- `'Discount'`:
+- `'Profit'`:
 
 
 
