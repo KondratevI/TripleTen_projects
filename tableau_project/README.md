@@ -34,3 +34,4 @@ The project was divided into three parts:
 - **Advertising:** Identified the best states and months for advertising, calculating the return on ad spend ratio.
 - **Returned Items:** Analyzed the return rates of products and examined the relationship between profit and return rates.
 
+You can see the result on [Tableau](https://public.tableau.com/app/profile/ivan.kondratev/viz/Project4_16927867304350/Causingofreturns).
