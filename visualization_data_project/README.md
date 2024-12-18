@@ -2,12 +2,12 @@
 
 ### The goal
 
-The goal is to review the superstore’s operations and increase its profitability. For each question, I should prepare an individual visualization that justifies my conclusion.
+This project involves the visualization of data collected from a mock study where 100 red squirrels were assigned one of three different diets after weaning. The objective of the study was to observe how different diets affected the squirrels' adult weights.
+The goal of the visualization is to clearly show the weight differences across the three diet groups and provide insights into the potential impact of diet on growth.
 
 #### The Data
 
-The dataset contains the results of a mock study where 100 red squirrels were given one of three different diets after weaning, and their full grown adult weights were recorded. The figure below displays the results of the study, and this is the figure that you need to recreate.
-
+The dataset contains the weight measurements of the squirrels when they reached adulthood, grouped by the type of diet they received. 
 
 #### Process and Results
 
