@@ -5,8 +5,11 @@ Projects I worked on while attending the Data Analysis TripleTen Bootcamp.
 | Project number | Title | Description |
 | :-----------: | ----------- |----------- |
 | 1 | [Data Visualization with Tableau](https://github.com/KondratevI/TripleTen_projects/tree/ad457578f8794f8bdb022c20bf6504ea922a2a35/tableau_project) | The project task was to review the superstore’s operations of the superstore and increase its profitability. |
+| 2 | [Exploring and Cleaning Data with Pandas](https://github.com/KondratevI/TripleTen_projects/tree/35698c8bd41810e71827e8595f78c53c4d3dbca1/exploring_cleaning) |  |
 
 
+
+https://github.com/KondratevI/TripleTen_projects/tree/35698c8bd41810e71827e8595f78c53c4d3dbca1/exploring_cleaning
 
 | Project number | Title | Description |
 | :-----------: | ----------- |----------- |
