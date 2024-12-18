@@ -29,10 +29,18 @@ The goal of this project is to explore datasets, find the best model with the be
 
 #### Process and Results
 
+To do this I'll:
+
+- preprocess the data identifying and filling in missing values, identifying and remove duplicate values,
+- split the source data into a training set, a validation set, and a test set,
+- try classifiers on the validation set:
+  - DecisionTreeClassifier with various max_depth hyperparameter,
+  - RandomForestClassifier with various n_estimators and max_depth hyperparameters,
+  - LogisticRegression with various solver hyperparameter,
+- use the best hyperparameter on the test set,
+- make conclusions.
+
 The project was divided into three parts:
 - **Profits & Losses:** Identified the biggest profit and loss centers, recommended products to stop selling, found the relationships between total numbers of sales and returns.
 - **Advertising:** Identified the best states and months for advertising, calculating the return on ad spend ratio.
 - **Returned Items:** Analyzed the return rates of products and examined the relationship between profit and return rates.
-
-You can see the result on [Tableau](https://public.tableau.com/app/profile/ivan.kondratev/viz/Project4_16927867304350/Causingofreturns).
-
