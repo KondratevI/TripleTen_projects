@@ -2,7 +2,7 @@
 
 ### The goal
 
-The goal of this project is to explore dataset, carry out analysis of the data and make recommendations.
+The goal of this project is to explore dataset, carry out analysis of the data and make recommendations to optimize marketing expenses.
 
 #### The Data
 
