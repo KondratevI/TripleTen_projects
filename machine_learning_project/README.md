@@ -14,16 +14,16 @@ The goal of this project is to explore datasets, find the best model with the be
 
 #### Process and Results
 
-To do this I've done:
+To achieve the results, I have:
 
-- preprocess the data identifying and filling in missing values, identifying and remove duplicate values,
-- split the source data into a training set, a validation set, and a test set,
-- try classifiers on the validation set:
-  - `DecisionTreeClassifier` with various `max_depth` hyperparameters,
-  - `RandomForestClassifier` with various `n_estimators` and `max_depth` hyperparameters,
-  - `LogisticRegression` with various solver hyperparameters,
-- use the best hyperparameter on the test set,
-- make conclusions.
+- Preprocessed the data by identifying and filling in missing values, as well as identifying and removing duplicate entries.
+- Split the source data into a training set, validation set, and test set.
+- Tested various classifiers on the validation set:
+  - `DecisionTreeClassifier` with different `max_depth` hyperparameters.
+  - `RandomForestClassifier` with various combinations of `n_estimators` and `max_depth` hyperparameters.
+  - `LogisticRegression with different solver hyperparameters.
+- Applied the best-performing hyperparameters to the test set.
+- Made conclusions based on the results.
 
 The project was divided into three parts:
 - **Profits & Losses:** Identified the biggest profit and loss centers, recommended products to stop selling, found the relationships between total numbers of sales and returns.
