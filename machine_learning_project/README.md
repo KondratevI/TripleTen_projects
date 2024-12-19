@@ -19,9 +19,9 @@ To do this I've done:
 - preprocess the data identifying and filling in missing values, identifying and remove duplicate values,
 - split the source data into a training set, a validation set, and a test set,
 - try classifiers on the validation set:
-  - DecisionTreeClassifier with various max_depth hyperparameter,
-  - RandomForestClassifier with various n_estimators and max_depth hyperparameters,
-  - LogisticRegression with various solver hyperparameter,
+  - `DecisionTreeClassifier` with various `max_depth` hyperparameters,
+  - `RandomForestClassifier` with various `n_estimators` and `max_depth` hyperparameters,
+  - `LogisticRegression` with various solver hyperparameters,
 - use the best hyperparameter on the test set,
 - make conclusions.
 
