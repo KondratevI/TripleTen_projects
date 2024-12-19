@@ -41,3 +41,4 @@ To achieve the goal, I:
     - The cost of customer acquisition from each source.
     - The profitability of the investments (ROI).
 - Created plots and heatmaps to visualize patterns.
+- Made conclusions.
