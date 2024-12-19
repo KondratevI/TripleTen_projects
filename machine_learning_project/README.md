@@ -1,4 +1,4 @@
-# Project - Data Visualization with Tableau
+# Project - Machine Learning
 
 ### The goal
 
