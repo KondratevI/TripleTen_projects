@@ -21,20 +21,28 @@ The data was spread across three files:
 - `'group'`: A/B test group
 - `'visits'`: the number of visits on the date specified in the A/B test group specified
 
-#### Process and Results
+### Process and Results
 
-To achieve the results, I have:
-
-- Preprocessed the data by identifying and filling in missing values, as well as identifying and removing duplicate entries.
-- Split the source data into a training set, validation set, and test set.
-- Tested various classifiers on the validation set:
-  - `DecisionTreeClassifier` with different `max_depth` hyperparameters.
-  - `RandomForestClassifier` with various combinations of `n_estimators` and `max_depth` hyperparameters.
-  - `LogisticRegression with different solver hyperparameters.
-- Applied the best-performing hyperparameters to the test set.
-- Made conclusions based on the results.
-
-The project was divided into three parts:
-- **Profits & Losses:** Identified the biggest profit and loss centers, recommended products to stop selling, found the relationships between total numbers of sales and returns.
-- **Advertising:** Identified the best states and months for advertising, calculating the return on ad spend ratio.
-- **Returned Items:** Analyzed the return rates of products and examined the relationship between profit and return rates.
+#### Step 1: Data Preprocessing
+- **Handled missing values:** Identified and filled in missing values in key columns (orders, visits, group, order size, price).
+- **Removed duplicates:** Checked for and removed duplicate rows to avoid distorting the analysis results.
+#### Step 2: Visualization
+- **Cumulative revenue by group:** Plotted the cumulative revenue for both groups.
+- **Cumulative average order size by group:** Plotted the cumulative average order size.
+- **Relative difference in cumulative average order size between groups:** Plotted the difference in average order size between groups A and B.
+- **Scatter plot of orders per user:** Plotted the number of orders per user.
+- **Scatter plot of order prices:** Plotted the order prices.
+- **Daily conversion rates for both groups:** Plotted the daily conversion rates for both groups.
+#### Step 3: Calculations
+- **Conversion rate for each group:** Calculated the conversion rate for each group (the ratio of orders to visits per day).
+- **95th and 99th percentiles for orders per user:** Calculated the percentiles for the number of orders.
+- **95th and 99th percentiles for order prices:** Calculated the percentiles for the order prices.
+#### Step 4: Statistical Analysis
+- **Statistical significance of the conversion difference between groups (raw data):** Tested whether the conversion rates between the groups were statistically significant using a t-test.
+- **Statistical significance of the average order size difference between groups (raw data):** Tested whether the average order size difference between the groups was statistically significant.
+- **Statistical significance of the conversion difference between groups (filtered data):** Tested the statistical significance on the filtered data.
+- **Statistical significance of the average order size difference between groups (filtered data):** Tested the statistical significance on the filtered data.
+#### Step 5: Conclusions and Recommendations
+- Summarized the results of the tests and graphs.
+- Drew conclusions on which group performed better.
+- Provided recommendations for further improvements and testing.
