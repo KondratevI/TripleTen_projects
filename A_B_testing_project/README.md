@@ -1,5 +1,10 @@
 # Project - A/B Testing
 
+### The goal
+
+The goal of this project is to explore datasets, carry out analysis of the data and make recommendations about A/B testing.
+
+#### The Data
 The data was spread across three files:
 
 `/hypotheses_us.csv`: each row corresponds to a hypothesis
