@@ -8,26 +8,16 @@ Finding the most profitable and the less profitable divisions, segments and cate
 It was provided a backup of the database in the SQLite format no CSV files will be provided.
 The condition of the project was оnly use connections to the database itself, and not to load the whole database to CSV.
 
-The data was spread across three files:
+The data was spread across six tables:
+- `dim_customer`: contains customer-related data.
+- `dim_product`: contains product-related data
+- `fact_pre_discount`: contains pre-invoice deductions information for each product
+- `fact_manufacturing_cost`: contains the cost incurred in the production of each product
+- `fact_gross_price`: contains gross price information for each product
+- `fact_sales_monthly`: contains monthly sales data for each product.
 
-`/hypotheses_us.csv`: each row corresponds to a hypothesis
-- `'Hypotheses'`: brief descriptions of the hypotheses
-- `'Reach'`: user reach, on a scale of one to ten
-- `'Impact'`: impact on users, on a scale of one to ten
-- `'Confidence'`: confidence in the hypothesis, on a scale of one to ten
-- `'Effort'`: the resources required to test a hypothesis, on a scale of one to ten. The higher the Effort value, the more resource-intensive the test.
 
-`/datasets/orders_us.csv`: each row corresponds to a user's order
-- `'transactionId'`: order identifier
-- `'visitorId'`: identifier of the user who placed the order
-- `'date'`: date of the order
-- `'revenue'`: revenue from the order
-- `'group'`: the A/B test group that the user belongs to
-- 
-`/visits_us.csv`: each row corresponds to user visits
-- `'date'`: date
-- `'group'`: A/B test group
-- `'visits'`: the number of visits on the date specified in the A/B test group specified
+
 
 ### Process and Results
 
