@@ -2,9 +2,12 @@
 
 ### The goal
 
-The goal of this project is to explore datasets, carry out analysis of the data and make recommendations about A/B testing.
+Finding the most profitable and the less profitable divisions, segments and categories of the products.
 
 #### The Data
+It was provided a backup of the database in the SQLite format no CSV files will be provided.
+The condition of the project was оnly use connections to the database itself, and not to load the whole database to CSV.
+
 The data was spread across three files:
 
 `/hypotheses_us.csv`: each row corresponds to a hypothesis
