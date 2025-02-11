@@ -1,20 +1,21 @@
 # Project - A/B Testing
 
-The data was spread across three files:
-- `hypotheses_us.csv`: each row corresponds to a user's session in the app
-    - `'Uid'`: Unique identifier of the user
-    - `'Device'`: User's device type
-    - `'Start Ts'`: Session start date and time
-    - `'End Ts'`: Session end date and time
-    - `'Source Id'`: Identifier of the ad source the user came from
-- `orders.csv`: each row corresponds to a user's order
-    - `'Uid'`: Unique identifier of the user making the order
-    - `'Buy Ts'`: Order date and time
-    - `'Revenue'`: Yandex.Afisha's revenue from the order
-- `costs.csv`: each row corresponds to daily marketing expenses for an ad source
-    - `'source_id'`: Identifier of the ad source
-    - `'dt'`: Date of the expense
-    - `'costs'`: Marketing expenses for this ad source on the specified day
+/datasets/hypotheses_us.csv: each row corresponds to a hypothesis
+- 'Hypotheses': brief descriptions of the hypotheses
+'Reach': user reach, on a scale of one to ten
+'Impact': impact on users, on a scale of one to ten
+'Confidence': confidence in the hypothesis, on a scale of one to ten
+'Effort': the resources required to test a hypothesis, on a scale of one to ten. The higher the Effort value, the more resource-intensive the test.
+/datasets/orders_us.csv: each row corresponds to a user's order
+'transactionId': order identifier
+'visitorId': identifier of the user who placed the order
+'date': date of the order
+'revenue': revenue from the order
+'group': the A/B test group that the user belongs to
+/datasets/visits_us.csv: each row corresponds to user visits
+'date': date
+'group': A/B test group
+'visits': the number of visits on the date specified in the A/B test group specified
 
 #### Process and Results
 
